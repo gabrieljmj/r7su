@@ -6,6 +6,9 @@ const dependencies = {
     'babel-loader',
     'babel-preset-es2015',
     'babel-preset-react',
+    'style-loader',
+    'css-loader',
+    'extract-text-webpack-plugin',
     'webpack'
   ],
   prod: [
