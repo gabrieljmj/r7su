@@ -22,8 +22,9 @@ const dependencies = {
 module.exports = () => {
   return new Promise(resolve => {
     console.log('-- INSTALLING PACKAGES --');
+    console.log('This should take a while...');
 
-    exec('npm install ' + dependencies.dev.join(' ') + ' --save-dev', (err, stdin, stdout) => {
+    exec('yarn add ' + dependencies.dev.join(' ') + ' --dev', (err, stdin, stdout) => {
       if (err) {
         console.error(err);
       } else {
@@ -31,7 +32,7 @@ module.exports = () => {
       }
     });
 
-    exec('npm install ' + dependencies.prod.join(' ') + ' --save', (err, stdin, stdout) => {
+    exec('yarn add ' + dependencies.prod.join(' '), (err, stdin, stdout) => {
       if (err) {
         console.error(err);
       } else {
