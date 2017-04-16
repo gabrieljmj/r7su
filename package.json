@@ -1,0 +1,12 @@
+{
+  "name": "r7su",
+  "version": "1.0.0",
+  "description": "Creates a boilerplate for my personal React projects",
+  "bin": {
+    "r7su": "bin/r7su"
+  },
+  "main": "index.js",
+  "author": "GabrielJMJ",
+  "license": "MIT",
+  "repository": "gabrieljmj/r7su"
+}
