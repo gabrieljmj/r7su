@@ -1,6 +1,6 @@
 {
   "name": "r7su",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Creates a boilerplate for my personal React projects",
   "bin": {
     "r7su": "bin/r7su"

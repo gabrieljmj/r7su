@@ -17,7 +17,7 @@ module.exports = () => {
 
       fs.stat(file, (err, stat) => {
         if (err && err.code === 'ENOENT') {
-          fs.readFile(`./templates/${file}`, 'utf8', (err, content) => {
+          fs.readFile(`${__dirname}/templates/${file}`, 'utf8', (err, content) => {
             fs.writeFile(file, content, err => {
               if (err) throw err;
             });
