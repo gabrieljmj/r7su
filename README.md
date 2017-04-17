@@ -40,6 +40,7 @@ $ r7su
 > [**yarn**](https://yarnpkg.com) is required to install packages.
 
 ### Dev
+* [```webpack```](https://npmjs.com/package/webpack)
 * [```babel-core```](https://npmjs.com/package/babel-core)
 * [```babel-loader```](https://npmjs.com/package/babel-loader)
 * [```babel-preset-es2015```](https://npmjs.com/package/babel-preset-es2015)
@@ -47,10 +48,10 @@ $ r7su
 * [```style-loader```](https://npmjs.com/package/style-loader)
 * [```css-loader```](https://npmjs.com/package/css-loader)
 * [```extract-text-webpack-plugin```](https://npmjs.com/package/extract-text-webpack-plugin)
-* [```webpack```](https://npmjs.com/package/webpack)
 
 ### Prod
 * [```react```](https://npmjs.com/package/react)
+* [```react-dom```](https://npmjs.com/package/react-dom)
 * [```react-route```](https://npmjs.com/package/react-route)
 * [```redux```](https://npmjs.com/package/redux)
 * [```react-redux```](https://npmjs.com/package/react-redux)
