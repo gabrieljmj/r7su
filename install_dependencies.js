@@ -13,6 +13,7 @@ const dependencies = {
   ],
   prod: [
     'react',
+    'react-dom',
     'react-route',
     'redux',
     'react-redux'
