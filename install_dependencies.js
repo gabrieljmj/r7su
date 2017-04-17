@@ -24,21 +24,17 @@ module.exports = () => {
     console.log('-- INSTALLING PACKAGES --');
     console.log('This should take a while...');
 
-    exec('yarn add ' + dependencies.dev.join(' ') + ' --dev', (err, stdin, stdout) => {
+    const cb = (err, stdin, stdout) => {
       if (err) {
         console.error(err);
       } else {
         console.log(stdout);
       }
-    });
+    }
 
-    exec('yarn add ' + dependencies.prod.join(' '), (err, stdin, stdout) => {
-      if (err) {
-        console.error(err);
-      } else {
-        console.log(stdout);
-      }
-    });
+    exec('yarn add ' + dependencies.dev.join(' ') + ' --dev', cb);
+
+    exec('yarn add ' + dependencies.prod.join(' '), cb);
 
     resolve();  
   });
