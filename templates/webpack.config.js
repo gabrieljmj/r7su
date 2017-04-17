@@ -2,10 +2,10 @@ const webpack = require('webpack'),
   path = require('path'),
   ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const isProduction = (proccess.env.NODE_ENV || 'development') === 'production';
+const isProduction = (process.env.NODE_ENV || 'development') === 'production';
 
 const paths = {
-  js: path.revolve(__dirname, 'public/js'),
+  js: path.resolve(__dirname, 'public/js'),
   css: path.resolve(__dirname, 'public/css')
 }
 
