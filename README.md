@@ -37,6 +37,8 @@ $ r7su
 
 ## Installed packages
 
+> [**yarn**](https://yarnpkg.com) is required to install packages.
+
 ### Dev
 * [```babel-core```](https://npmjs.com/package/babel-core)
 * [```babel-loader```](https://npmjs.com/package/babel-loader)
