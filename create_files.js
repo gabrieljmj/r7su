@@ -4,6 +4,7 @@ const files = [
   './package.json',
   './index.html',
   './.editorconfig',
+  './.gitignore',
   './webpack.config.js',
   './app/app.js'
 ];
