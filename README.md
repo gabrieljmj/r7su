@@ -29,6 +29,7 @@ $ r7su
 │  ├──js/
 │  ├──images/
 ├──.editorconfig
+├──.gitignore
 ├──index.html
 ├──package.json
 ├──webpack.config.js
